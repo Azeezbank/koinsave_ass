@@ -21,10 +21,8 @@
               "raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"123456\"\n}"
             },
             "url": {
-              "raw": "http://localhost:3000/api/auth/register",
-              "protocol": "http",
-              "host": ["localhost"],
-              "port": "5000",
+              "raw": "{{base_url}}/api/auth/register",
+              "host": ["{{base_url}}"],
               "path": ["api", "auth", "register"]
             }
           }
@@ -41,10 +39,8 @@
               "raw": "{\n  \"email\": \"john@example.com\",\n  \"password\": \"123456\"\n}"
             },
             "url": {
-              "raw": "http://localhost:3000/api/auth/login",
-              "protocol": "http",
-              "host": ["localhost"],
-              "port": "5000",
+              "raw": "{{base_url}}/api/auth/login",
+              "host": ["{{base_url}}"],
               "path": ["api", "auth", "login"]
             }
           }
@@ -68,10 +64,8 @@
               "raw": "{\n  \"amount\": 1000\n}"
             },
             "url": {
-              "raw": "http://localhost:3000/api/wallet/deposit",
-              "protocol": "http",
-              "host": ["localhost"],
-              "port": "5000",
+              "raw": "{{base_url}}/api/wallet/deposit",
+              "host": ["{{base_url}}"],
               "path": ["api", "wallet", "deposit"]
             }
           }
@@ -95,10 +89,8 @@
               "raw": "{\n  \"receiverId\": 2,\n  \"amount\": 500\n}"
             },
             "url": {
-              "raw": "http://localhost:3000/api/transactions/transfer",
-              "protocol": "http",
-              "host": ["localhost"],
-              "port": "5000",
+              "raw": "{{base_url}}/api/transactions/transfer",
+              "host": ["{{base_url}}"],
               "path": ["api", "transactions", "transfer"]
             }
           }
@@ -110,6 +102,10 @@
     {
       "key": "token",
       "value": ""
+    },
+    {
+      "key": "base_url",
+      "value": "https://koinsave-ass.onrender.com"
     }
   ]
 }

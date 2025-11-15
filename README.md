@@ -98,13 +98,19 @@ npx prisma generate
 
 
 ## Server runs at:
-
+**Development**
 `http://localhost:5000`
+
+**production**
+`https://koinsave-ass.onrender.com`
 
 
 ## Swagger documentation:
-
+**Dev**
 `http://localhost:5000/api/docs`
+
+**Production**
+`https://koinsave-ass.onrender.com/api/docs`
 
 ## 🔌 API Endpoints
 **Authentication**
@@ -126,12 +132,15 @@ npx prisma generate
 ## 📄 Swagger Documentation
 
 **Accessible at:**
-
+**dev**
 `http://localhost:5000/api/docs`
+
+**Production**
+`https://koinsave-ass.onrender.com/api/docs`
 
 ## Postman documentation
 **Accessible at**
-https://documenter.getpostman.com/view/45496448/2sB3WvNeDD
+`https://documenter.getpostman.com/view/45496448/2sB3WvNyEo`
 
 
 

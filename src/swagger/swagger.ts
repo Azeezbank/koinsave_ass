@@ -9,7 +9,8 @@ export const swaggerOptions = {
       description: "API documentation for Koinsave backend assessment"
     },
     servers: [
-      { url: "http://localhost:5000" }
+      { url: "http://localhost:5000", description: "Local Development" },
+  { url: "https://koinsave-ass.onrender.com", description: "Production" }
     ]
   },
   apis: ["./src/swagger/*.ts"]
