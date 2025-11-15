@@ -87,6 +87,7 @@ Create a .env file:
 
 `DATABASE_URL="postgresql"`
 `JWT_SECRET="---"`
+**These has been sent with the mail body**
 
 
 5. Generate Prisma Client
