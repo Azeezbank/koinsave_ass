@@ -75,22 +75,22 @@ koinsave_ass/
 
 ## ⚙️ Setup Instructions
 1. Clone the repository
-git clone https://github.com/your-repo/koinsave.git
-cd koinsave
+[git clone https://github.com/your-repo/koinsave.git]
+`cd koinsave_ass`
 
 2. Install dependencies
-npm install
+`npm install`
 
 3. Configure environment variables
 
 Create a .env file:
 
-DATABASE_URL="postgresql"
-JWT_SECRET="---"
+`DATABASE_URL="postgresql"`
+`JWT_SECRET="---"`
 
 
 5. Generate Prisma Client
-npx prisma generate
+`npx prisma generate`
 
 6. Start the server
 `npm start`
