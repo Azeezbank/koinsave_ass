@@ -1,12 +1,11 @@
-
 services:
   app:
     build: .
     container_name: koinsave_api
     restart: always
     ports:
-      - "3000:3000"
+      - "5000:5000"
     environment:
       DATABASE_URL: "postgresql://koinsave_user:oHHOe386D7ZRv8aForw5hiNSuE5myrTt@dpg-d4bnbg2li9vc73bhgfdg-a.oregon-postgres.render.com/koinsave"
       JWT_SECRET: "supersecret"
-      PORT: 3000
+      PORT: "5000"

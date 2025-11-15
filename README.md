@@ -99,12 +99,12 @@ npx prisma generate
 
 ## Server runs at:
 
-`http://localhost:3000`
+`http://localhost:5000`
 
 
 ## Swagger documentation:
 
-`http://localhost:3000/api/docs`
+`http://localhost:5000/api/docs`
 
 ## 🔌 API Endpoints
 **Authentication**
@@ -127,7 +127,7 @@ npx prisma generate
 
 **Accessible at:**
 
-`http://localhost:3000/api/docs`
+`http://localhost:5000/api/docs`
 
 ## Postman documentation
 **Accessible at**
