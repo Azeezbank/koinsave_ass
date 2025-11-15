@@ -40,7 +40,7 @@ Implements user authentication, wallet funding, money transfers, transaction log
 
 - Dockerized for easy deployment
 
-- rate limiting and logging middleware
+- rate limiting and logging middleware.
 
 ## 🛠 Tech Stack
 **Technology	Purpose**
