@@ -30,7 +30,7 @@ Implements user authentication, wallet funding, money transfers, transaction log
 
 - Swagger UI available at /api-docs
 
-- Postman UI available at /api-docs
+- Postman UI available at [https://documenter.getpostman.com/view/45496448/2sB3WvNyEo]
 
 - Well-structured JSON responses for all endpoints
 
